@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - Firm Roofing</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+<nav>
+  <div class="nav-container">
+    <a href="index.html" class="logo">
+      <img src="C:\xampp\htdocs\fam\images\firmroofinglogo.png" alt="Firm Roofing Logo" width="180" height="60">
+    </a>
+    <ul class="nav-links">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="faq.html">FAQs</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<style>
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo img {
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+  }
+  
+  /* Adjust the width and height values above (180x60) to match your actual logo dimensions */
+</style>
+  <!-- Contact Hero -->
+  <div class="hero">
+    <h2>Get in Touch</h2>
+    <p>Ready to start your roofing project? Contact us today for a free consultation and quote.</p>
+  </div>
+  <div class="grid">
+ <div class="contact-form">
+        <h2 class="section-title">Get a Free Quote</h2>
+        <form action="https://formspree.io/f/xanopqye" method="POST">
+  <div class="form-group">
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="name" required>
+  </div>
+
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+  </div>
+
+  <div class="form-group">
+    <label for="phone">Phone Number</label>
+    <input type="tel" id="phone" name="phone" required>
+  </div>
+
+  <div class="form-group">
+    <label for="service">Service Needed</label>
+    <select id="service" name="service">
+      <option value="residential">Residential Roofing</option>
+      <option value="commercial">Commercial Roofing</option>
+      <option value="repairs">Roof Repairs</option>
+      <option value="waterproofing">Waterproofing</option>
+      <option value="other">Other</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="message">Project Details</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+  </div>
+   <!-- Redirect to thank-you.html -->
+  <input type="hidden" name="_redirect" value="thanku.html">
+  <button type="submit" class="cta-button">Submit Request</button>
+</form> 
+</div>
+  <!-- Contact Section -->
+  <section>
+    <div class="contact-container">
+      <div class="contact-info">
+        <h2 class="section-title">Contact Information</h2>
+        <div class="contact-method">
+          <i class="fas fa-phone"></i>
+          <h3>Phone</h3>
+          <p>+254 797 723 863</p>
+        </div>
+        
+        <div class="contact-method">
+          <i class="fas fa-envelope"></i>
+          <h3>Email</h3>
+          <p>info@firmroofing.co.ke</p>
+        </div>
+        
+        <div class="contact-method">
+          <i class="fas fa-map-marker-alt"></i>
+          <h3>Office</h3>
+          <p>Nairobi, Kenya</p>
+        </div>
+        
+        <div class="contact-method">
+          <i class="fas fa-clock"></i>
+          <h3>Working Hours</h3>
+          <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
+          <p>Saturday: 9:00 AM - 2:00 PM</p>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map Section -->
+  <section class="map-section">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.808560553611!2d36.82154831533093!3d-1.288385535979623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d664f5b7c7%3A0x7e3b2d4e4e4e4e4e!2sNairobi%2C%20Kenya!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-links">
+        <h3>Services</h3>
+        <ul>
+          <li><a href="services.html">Residential Roofing</a></li>
+          <li><a href="services.html">Commercial Roofing</a></li>
+          <li><a href="services.html">Roof Repairs</a></li>
+          <li><a href="services.html">Waterproofing</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-links">
+        <h3>Contact Us</h3>
+        <ul>
+          <li><i class="fas fa-phone"></i> +254 797 723 863</li>
+          <li><i class="fas fa-envelope"></i> info@firmroofing.co.ke</li>
+          <li><i class="fas fa-map-marker-alt"></i> Nairobi, Kenya</li>
+        </ul>
+        <div class="social-links">
+       <a href="https://www.facebook.com/saich.mtopsha" target="_blank" title="Facebook" style="color: #ebeae8; margin: 0 10px; font-size: 24px;">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+ <a href="https://previouswebsite.com/twitter" target="_blank" title="Twitter" style="color: #ebeae8; margin: 0 10px; font-size: 24px;">
+      <i class="fab fa-twitter"></i>
+    </a>
+  <a href="https://www.instagram.com/sim.tokyo/" target="_blank" title="Instagram" style="color: #ebeae8; margin: 0 10px; font-size: 24px;">
+      <i class="fab fa-instagram"></i>
+    </a>
+   <a href="https://previouswebsite.com/linkedin" target="_blank" title="LinkedIn" style="color: #ebeae8; margin: 0 10px; font-size: 24px;">
+      <i class="fab fa-linkedin-in"></i>
+      <a href="https://www.snapchat.com/add/simonnjenga8011?share_id=fpkcNR79i_o&locale=en-US" target="_blank" title="snapchat" style="color: #ebeae8; margin: 0 10px; font-size: 24px;">
+      <i class="fab fa-snapchat"></i>
+        </div>
+      </div>
+    </div>
+<p align="center">&copy; 2025 Firm Roofing. All rights reserved.</p>
+  </footer>
+  <!-- WhatsApp Button -->
+  <a href="https://wa.me/254797723863" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script>
+    // Set service type based on URL parameter
+    document.addEventListener('DOMContentLoaded', function() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const serviceParam = urlParams.get('service');
+      const projectParam = urlParams.get('project');
+      
+      if (serviceParam) {
+        document.getElementById('service').value = serviceParam;
+      }
+      
+      if (projectParam) {
+        document.getElementById('message').value = `I'm interested in a project similar to the ${projectParam} project I saw on your website.`;
+      }
+    });
+  </script>
+  <!-- Your page content above -->
+    </a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+.thank-you-message {
+  text-align: center;
+  padding: 4rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.thank-you-message h2 {
+  color: var(--primary);
+  margin-bottom: 1rem;
+}

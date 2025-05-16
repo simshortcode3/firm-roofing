@@ -1,0 +1,220 @@
+/* General Reset & Fonts */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation placeholder */
+nav {
+    background: #1a4d2e;
+    padding: 1rem 2rem;
+    color: white;
+    text-align: center;
+}
+
+/* Blog Hero */
+.blog-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('roof-climate.jpg') center/cover no-repeat;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+.blog-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.blog-hero p {
+    font-size: 1.2rem;
+}
+
+/* Blog Content */
+.blog-content {
+    max-width: 1200px;
+    margin: 3rem auto;
+    padding: 0 2rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Section Headers */
+.icon-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #1a4d2e;
+    margin-bottom: 1rem;
+}
+.icon-header i {
+    color: #1a4d2e;
+}
+
+/* Climate Cards */
+.climate-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.climate-card {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+.climate-card:hover {
+    transform: translateY(-8px);
+}
+.climate-card h3 {
+    color: #1a4d2e;
+    margin-top: 1rem;
+}
+.climate-card i {
+    color: #117a65;
+}
+
+/* Material Comparison */
+.material-comparison {
+    background: #f0f8f5;
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 3rem 0;
+}
+.comparison-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.material-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.material-card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+.material-card h3 {
+    margin-top: 1rem;
+    color: #1a4d2e;
+}
+
+/* Case Study */
+.case-study {
+    border-left: 4px solid #1a4d2e;
+    padding: 1rem 2rem;
+    background: #fff;
+    border-radius: 8px;
+    margin: 3rem 0;
+}
+.before-after {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.before-after img {
+    width: 100%;
+    max-width: 48%;
+    border-radius: 8px;
+}
+
+/* Tips Section */
+.expert-tips {
+    margin: 2rem 0;
+}
+.expert-tips h2 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #117a65;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.expert-tips ul {
+    list-style-type: disc;
+    padding-left: 2rem;
+}
+
+/* CTA Section */
+.cta-section {
+    text-align: center;
+    margin: 3rem 0;
+    padding: 2rem;
+    background: #1a4d2e;
+    color: white;
+    border-radius: 10px;
+}
+.cta-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background: #f4d03f;
+    color: #1a4d2e;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+.cta-button:hover {
+    background: #f1c40f;
+}
+
+/* WhatsApp Button */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 24px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    z-index: 1000;
+    text-decoration: none;
+}
+.back-button-container {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.back-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #1a4d2e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.back-button:hover {
+    background-color: #145c3c;
+    transform: translateY(-2px);
+}
+
+.back-button i {
+    font-size: 1.1rem;
+}
+
